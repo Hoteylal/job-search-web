@@ -1,0 +1,14 @@
+{
+  "name": "career-prep-portal",
+  "version": "1.0.0",
+  "description": "Full-Stack Job Portal & Placement Preparation Platform",
+  "scripts": {
+    "server": "npm --prefix server run dev",
+    "client": "npm --prefix client run dev",
+    "start": "node server/src/index.js",
+    "build": "npm --prefix client run build"
+  },
+  "keywords": ["jobs", "dsa", "aptitude", "interview-prep", "placement", "fullstack"],
+  "author": "",
+  "license": "MIT"
+}
